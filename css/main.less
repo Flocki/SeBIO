@@ -627,7 +627,9 @@ header{
         }
     }
 
-    
+    .hidden{
+        visibility: hidden;
+    }
 
     section{
         text-align: right;
@@ -665,6 +667,9 @@ nav{
                 color: #ffffff;
                 font-size: 1.25em;
                 text-shadow: 0px 2px 3px #666;
+                &:hover{
+                    text-shadow: 0px 0px 0px #fff;
+                }
             }
         }
     }
@@ -684,6 +689,7 @@ nav{
     width: 290px;
     margin-top: 20px;
     text-align: center;
+    height: 530px;
 
     h1{
         font: 25px "Merienda One","Sans-serif";
@@ -703,6 +709,58 @@ nav{
     }
 }
 
+.produitsAccueil{
+    height: 255px;
+    width: 400px;
+    font: 16px Calibri, "Source Sans Pro", "Sans-serif";
+    margin-left: 310px;
+
+    h2{
+        font: 20px "Merienda One", "Sans-serif";
+        width: 220px;
+        margin-left: 160px;
+    }
+
+    img{
+        float: left;
+        -webkit-box-shadow: rgba(0,0,0,0.2) 3px 3px 10px;
+    }
+
+    form{
+        margin-top: 90px;
+        height: 120px;
+        background-image: url("../img/panier.png");
+        background-repeat: no-repeat;
+        input{
+            display: block;
+            width: 115px;
+            padding: 3px;
+            margin-top: 12px;
+            margin-left: 17px;
+            height: 20px;
+            font-size: 12px;
+            font-family: Calibri, "Source Sans Pro","Sans-serif";
+            color: rgb(78,151,73);
+        }
+        select{
+            margin-top: 20px;
+        }
+    }
+
+    p{
+        width: 220px;
+        margin-left: 160px;
+        &.info{
+            margin-top: -185px;
+        }
+    }
+
+    &#prod1{
+        margin-top: -553px;
+        margin-bottom: 40px;
+    }
+}
+
 footer{
     height: 9.375em;
     background-color: rgb(126,86,37);
@@ -718,6 +776,7 @@ footer{
 
     div{
         font: 12px Calibri, "Source Sans Pro", "sans-serif";
+        height: 130px;
 
         p{
             margin-bottom: -1em;
@@ -737,12 +796,13 @@ footer{
             left: 120px;
             -webkit-box-shadow: rgba(0,0,0,0.2) 5px 5px 10px;
             color: rgb(79,50,15);
-            #footerContact{
-                margin-left: 25px;
-                margin-top: -17px;
-                a{
-                    margin-top: 15px;
-                }
+        }
+
+        #footerContact{
+            margin-left: 25px;
+            margin-top: -17px;
+            a{
+                margin-top: 15px;
             }
         }
 

@@ -20,6 +20,7 @@
         <![endif]-->
         <header>
             <nav id="menuHaut">
+                <h1 class="hidden">Menu haut</h1>
                 <ul>
                     <li class="actif"><a href="index.html" class="menu">Accueil</a></li>
                     <li><a href="nouveautés.html" class="menu">Nouveautés</a></li>
@@ -31,6 +32,7 @@
             </nav>
             <a id="logo" href="index.html"><img src="./img/logo.png" width="185" height="75" alt="SeBio"/></a>
             <section>
+                <h1 class="hidden">Section Header</h1>
                 <a id="connexion" href="./connexion.html" class="lienHeader">Se connecter</a><br />
                 <a id="inscription" href="./inscription.html" class="lienHeader">S'inscrire</a><br />
                 <a id="panier" href="./panier.html">Mon panier</a>
@@ -40,6 +42,7 @@
                 </form>
             </section>
             <nav id="menuBas">
+                <h1 class="hidden">Menu bas</h1>
                 <ul>
                     <li><a href="corps.html" class="menu">Soins du corps</a></li>
                     <li><a href="grossesse.html" class="menu">Grossesse et bébés</a></li>
@@ -57,14 +60,50 @@
             <p>Plus de 500 produits en PROMO</p>
             <p id="reduction">de -10 à -30% !!!</p>
         </section>
-        <section class="produits prod1">
-            <img src="" alt="" width="" height="" />
-            <h1></h1>
-            <p></p>
-            <p></p>
+        <section class="produitsAccueil" id="prod1">
+            <img src="./img/bougies.png" alt="Bougies anti-moustiques écologiques" width="150" height="150" />
+            <h2>Grande Bougie Stearôme - Ciao  Mosquito</h2>
+            <form method="post" action="#">
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select>
+                <input type="submit" value="Ajout au panier" />
+            </form>
+            <p class="info">Bougie anti-moustique écologique.</p>
+            <p>Une exigence écologique exemplaire dans la conception: verre coloré 100 % recyclé, stéarine de palme certifiée BIO et huiles essentielles BIO.</p>
+        </section>
+        <section class="produitsAccueil" id="prod2">
+            <img src="./img/jardineBio.png" alt="Livre de jardinage bio pour les petits et les grands" width="150" height="142" />
+            <h2>Jardine bio, c'est rigolo ( Eric Prédine )</h2>
+            <form method="post" action="#">
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select>
+                <input type="submit" value="Ajout au panier" />
+            </form>
+            <p class="info">De 7 à 77 ans</p>
+            <p>Sur un ton léger et drôle, cet ouvrage donne toutes les informations pour travailler la terre, semer, arroser… </p>
         </section>
         <footer>
-            <div class="footer">
+            <div>
                 <div id="contact">
                     <h1>Contact</h1>
                     <div id="footerContact">

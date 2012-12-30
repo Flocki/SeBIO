@@ -266,19 +266,16 @@ nav{
     height: 255px;
     width: 400px;
     font: 16px Calibri, "Source Sans Pro", "Sans-serif";
-    margin-left: 320px;
-
+    margin-left: 345px;
     h2{
         font: 20px "Merienda One", "Sans-serif";
         width: 220px;
-        margin-left: 160px;
+        margin-left: 180px;
     }
-
     .illustration{
         float: left;
         -webkit-box-shadow: rgba(0,0,0,0.2) 3px 3px 10px;
     }
-
     form{
         margin-top: 90px;
         height: 120px;
@@ -293,31 +290,66 @@ nav{
             font-size: 12px;
             font-family: Calibri, "Source Sans Pro","Sans-serif";
             color: rgb(78,151,73);
-
             padding: 0;
             line-height: 100%; /* Si ça fonctionne pas mets 0 */
             border: 0;
             background: none; /* ou transparent je sais plus... */
-        }
-        select{
-            margin-top: 20px;
-            border: 1px solid rgb(91,58,20);
-            border-radius: 5px;
-            height: 30px;
+            &.nbreArticle{
+                border-right: 1px solid rgb(138,94,59);
+                width: 20px;
+                text-align: center;
+            }
         }
     }
 
     p{
         width: 220px;
-        margin-left: 160px;
+        margin-left: 180px;
         &.info{
             margin-top: -185px;
+            margin-bottom: 10px;
         }
     }
 
     &#prod1{
         margin-top: -561px;
-        margin-bottom: 40px;
+        margin-bottom: 80px;
+    }
+}
+
+#offresEnvoi{
+    text-align: center;
+    p{
+        border: 3px solid rgb(138,94,59);
+        padding: 10px;
+        width: 200px;
+        font: 20px "Merienda One","Sans-serif";
+        color: rgb(22,79,22);
+        float: right;
+        &#fraisEnvoi{
+            margin-top: -590px;
+        }
+        &#unEuro{
+            margin-top: -455px;
+        }
+    }
+    div{
+        border: 3px solid rgb(138,94,59);
+        padding: 10px;
+        width: 200px;
+        font: 15px "Merienda One","Sans-serif";
+        float: right;
+        margin-top: -320px;
+        h1{
+            color: rgb(22,79,22);
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        a{
+            color: rgb(75,155,75);
+            display: inline-block;
+            margin-bottom: 15px;
+        }
     }
 }
 

@@ -19,23 +19,31 @@ body{background-image:url("../img/fond.png");margin:0 auto;width:1280px;}
 a{text-decoration:none;}
 header{background-image:url("../img/banniere.png");background-color:rgba(255, 255, 255, 0.5);background-repeat:no-repeat;height:15.625em;font-family:"Merienda One","sans-serif";}header #logo{margin-left:3.75em;}header #logo img{padding-top:20px;}
 header .hidden{visibility:hidden;}
-header section{text-align:right;margin-top:-6.25em;margin-right:1.25em;}header section .lienHeader{color:#164f16;font-size:0.875em;text-align:right;}
+header section{text-align:right;margin-top:-5em;margin-right:1.25em;}header section .lienHeader{color:#164f16;font-size:0.875em;text-align:right;}
 header section input{padding-left:5px;border-radius:5px;background-color:#ffffff;font:16px Calibri,"Source Sans Pro","sans-serif";-webkit-box-shadow:3px 3px 15px rgba(0, 0, 0, 0.1) inset,3px 3px 15px rgba(0, 0, 0, 0.1) inset;}
 nav{background-color:#4b9b4b;height:3.125em;-webkit-box-shadow:rgba(0, 0, 0, 0.2) 0px 5px 10px;border-bottom:1px solid darkgreen;}nav ul{margin:0 auto;padding-left:3.75em;}nav ul li{display:inline-block;padding-top:0.625em;}nav ul li a{color:#ffffff;font-size:1.25em;text-shadow:0px 2px 3px #666;padding:9px 10px 12px 10px;}nav ul li a:hover{background-color:#7fc67f;}
+nav ul li.actif a{color:#164F16;}
 nav#menuHaut li{padding-right:4em;}
-nav#menuBas{border-top:1px solid green;margin-top:40px;}nav#menuBas ul{padding-left:10px;}nav#menuBas ul li{text-align:center;margin-left:-30px;width:14.5em;}
+nav#menuBas{border-top:1px solid green;margin-top:20px;}nav#menuBas ul{padding-left:10px;}nav#menuBas ul li{text-align:center;margin-left:-30px;width:14.5em;}
 #promoFetes{border:3px solid #8a5e3b;width:290px;text-align:center;height:530px;padding:20px 5px 5px 10px;}#promoFetes h1{font:25px "Merienda One","Sans-serif";color:#164f16;}
 #promoFetes p{font-size:20px;margin-bottom:30px;color:#5d8b43;}#promoFetes p#reduction{font-size:30px;color:#fe2121;margin-bottom:0px;}
 #promoFetes img{margin-top:40px;margin-bottom:40px;}
-.produitsAccueil{height:255px;width:400px;font:16px Calibri,"Source Sans Pro","Sans-serif";margin-left:345px;}.produitsAccueil h2{font:20px "Merienda One","Sans-serif";width:220px;margin-left:180px;}
+.produitsAccueil{height:255px;width:550px;font:16px Calibri,"Source Sans Pro","Sans-serif";margin-left:345px;}.produitsAccueil h2{font:20px "Merienda One","Sans-serif";width:450px;margin-left:180px;}
 .produitsAccueil .illustration{float:left;-webkit-box-shadow:rgba(0, 0, 0, 0.2) 3px 3px 10px;}
-.produitsAccueil form{margin-top:90px;height:120px;background-image:url("../img/panier.png");background-repeat:no-repeat;}.produitsAccueil form input{display:block;width:115px;margin-top:12px;margin-left:17px;height:20px;font-size:12px;font-family:Calibri,"Source Sans Pro","Sans-serif";color:#4e9749;padding:0;line-height:100%;border:0;background:none;}.produitsAccueil form input.nbreArticle{border-right:1px solid #8a5e3b;width:20px;text-align:center;}
-.produitsAccueil p{width:220px;margin-left:180px;}.produitsAccueil p.info{margin-top:-185px;margin-bottom:10px;}
-.produitsAccueil#prod1{margin-top:-561px;margin-bottom:80px;}
-#offresEnvoi{text-align:center;}#offresEnvoi p{border:3px solid #8a5e3b;padding:10px;width:200px;font:20px "Merienda One","Sans-serif";color:#164f16;float:right;}#offresEnvoi p#fraisEnvoi{margin-top:-590px;}
-#offresEnvoi p#unEuro{margin-top:-455px;}
-#offresEnvoi div{border:3px solid #8a5e3b;padding:10px;width:200px;font:15px "Merienda One","Sans-serif";float:right;margin-top:-320px;}#offresEnvoi div h1{color:#164f16;font-size:20px;margin-bottom:20px;}
+.produitsAccueil form{margin-top:120px;height:120px;background-image:url("../img/panier.png");background-repeat:no-repeat;}.produitsAccueil form input{display:block;width:115px;margin-top:8px;margin-left:17px;height:20px;font-size:12px;font-family:Calibri,"Source Sans Pro","Sans-serif";color:#4e9749;padding:0;line-height:100%;border:0;background:none;}
+.produitsAccueil form div{padding-top:15px;margin-left:4px;}.produitsAccueil form div .nbreArticle{border-right:1px solid #8a5e3b;width:15px;height:25px;text-align:center;}
+.produitsAccueil p{width:450px;margin-left:180px;}.produitsAccueil p.info{margin-top:-185px;margin-bottom:10px;}
+.produitsAccueil#prod1{margin-top:-561px;margin-bottom:20px;}
+#offresEnvoi{text-align:center;}#offresEnvoi p{border:3px solid #8a5e3b;padding:10px;width:200px;font:20px "Merienda One","Sans-serif";color:#164f16;float:right;}#offresEnvoi p#fraisEnvoi{margin-top:-530px;}
+#offresEnvoi p#unEuro{margin-top:-390px;}
+#offresEnvoi div{border:3px solid #8a5e3b;padding:10px;width:200px;font:15px "Merienda One","Sans-serif";float:right;margin-top:-250px;}#offresEnvoi div h1{color:#164f16;font-size:20px;margin-bottom:20px;}
 #offresEnvoi div a{color:#4b9b4b;display:inline-block;margin-bottom:15px;}
+#nouveautes h1{font:20px "Merienda One","sans-serif";color:#7e5625;margin:50px 0px 20px 0px;}
+#nouveautes article{width:210px;margin-right:40px;display:inline-block;}#nouveautes article:last-child{margin-left:0px;}
+#nouveautes article .etiquetteNew{float:right;}
+#promotions{margin-bottom:50px;}#promotions h1{font:20px "Merienda One","sans-serif";color:#7e5625;margin:50px 0px 20px 0px;}
+#promotions article{width:210px;margin-right:40px;display:inline-block;}#promotions article:last-child{margin-left:0px;}
+#promotions article .etiquettePromo{float:right;}
 footer{height:9.375em;background-color:#7e5625;position:absolute;width:1280px;}footer h1{font:25px "Merienda One","Sans-serif";text-align:center;padding-top:8px;color:#4f320f;}
 footer div{font:12px Calibri,"Source Sans Pro","sans-serif";height:130px;}footer div a{display:block;color:#4f320f;}
 footer div #contact{background-color:#4b9b4b;height:140px;width:220px;position:relative;bottom:15px;left:210px;-webkit-box-shadow:rgba(0, 0, 0, 0.2) 5px 5px 10px;color:#4f320f;}
